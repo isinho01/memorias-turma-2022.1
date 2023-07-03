@@ -66,23 +66,11 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 4px;
 }
-/* estilizaçao da nav bar */
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: "Times New Roman", Times, serif;
-  background-color: black;
-  height: 8vh;
-}
+
 main {
   background: url("bg.jpg") no-repeat center center;
   background-size: cover;
   height: 92vh;
-}
-.nav-list {
-  letter-spacing: 100px;
-  margin-left: 32px;
 }
 h1:hover {
   /* font-family: "Times New Roman", Times, serif; */
@@ -90,17 +78,30 @@ h1:hover {
   opacity: 0.7;
   /* box-shadow: 0px 0px 7px rgba(34, 34, 34, 0.511); */
 }
-/* .carousel-inner {
-  display: flex;
-  padding: 50px;
-  gap: 50px;
-  box-shadow: 0px 0px 7px rgba(34, 34, 34, 0.511);
+
+/* estilizaçao da nav */
+nav {
+  background-color: #333;
+  color: #fff;
 }
-.carousel-slide {
-  padding: 20px;
-  gap: 20px;
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-.carousel-control-next-icon {
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
   padding: 10px;
-  gap: 30px;
-} */
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
