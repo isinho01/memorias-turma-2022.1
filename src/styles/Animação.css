@@ -1,0 +1,76 @@
+.rotacao {
+    /* ease in e out serve pra ir e pra voltar */
+    animation: rotacao 10s ease-in-out infinite alternate;
+}
+
+/* criando uma chave com o nome da animação */
+@keyframes rotacao {
+
+    /* iniciando a animação em 0 */
+    0% {
+        transform: rotate(0deg) translate(0px, 0px)scale(1);
+    }
+
+    80% {
+        transform: rotate(360deg) translate(0px, -70px)scale(1.05);
+    }
+
+    /* finalizando em 100 */
+    100% {
+        transform: rotate(360deg)translate(0px, -70px)scale(1.3);
+    }
+}
+
+.aparece-e-foca-8s {
+    animation: aparece-e-foca 8s ease infinite alternate;
+}
+
+.aparece-e-foca-6s {
+    animation: aparece-e-foca 6s ease infinite alternate;
+}
+
+@keyframes aparece-e-foca {
+    0% {
+        opacity: 0;
+        filter: blur(10px);
+    }
+
+    80% {
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.aumenta-sobe-brilha {
+    animation: aumenta-sobe-brilha 4s ease infinite alternate;
+}
+
+@keyframes aumenta-sobe-brilha {
+    0% {
+        filter: brightness(1) ;
+    }
+
+    90% {
+        filter: brightness(2);
+    }
+
+    100% {
+        transform: scale(1.0)translate(0px, -20px);
+        filter: brightness(1.2);
+    }
+}
+.fadein{
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
