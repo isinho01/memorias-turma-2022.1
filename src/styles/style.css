@@ -65,6 +65,10 @@ nav {
   box-shadow: 0px 6px 6px 0px #2a690029;
   padding: 0rem 14rem 0rem 14rem;
   border-top: #00000005 solid 1px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .botao-darkmode{
   margin-left: 165px;
