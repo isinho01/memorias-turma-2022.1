@@ -1,265 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- tentativa de colocar um icone a pagina -->
-    <link rel="shortcut icon" href="src/images/escudo.jpg">
-    <!-- título do site -->
 
-    <title>informatica 3M</title>
-    <!-- link do bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- link de css -->
-    <link rel="stylesheet" href="./src/styles/style.css" />
-    <link rel="stylesheet" href="./src/styles/Animação.css"/>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- tentativa de colocar um icone a pagina -->
+  <link rel="shortcut icon" href="src/images/Escudo-curso.png">
+  <!-- título do site -->
 
-  <body>
-    
-    <!-- início do cabeçalho -->
+  <title>informatica 3M</title>
+  <!-- link do bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- link de css -->
+  <link rel="stylesheet" href="./src/styles/style.css" />
+  <link rel="stylesheet" href="./src/styles/Animação.css" />
+</head>
+
+<body>
+
+  <nav>
+    <div  class="nav-menu center-flex">
+      <ul class="menu">
+        <li><a href="./Indexs/foto.html">Sobre o curso</a></li>
+        <li>Apresentações da turma</li>
+        <li>Partcipantes da turma</li>
+        <li>Confraternizações</li>
+        <li>Professores</li>
+        <div class="botao-darkmode">
+          <input type="checkbox" class="checkbox" id="chk" />
+  
+          <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
+      </ul>
+      <!-- modo escuro da pagina -->
+     
+    </div>
+
+  </nav>
+
+  <!-- início do cabeçalho -->
   <header>
-   
-      <h1 class="aparece-e-foca-8s">Memórias da turma de info3M </h1>
-      <img class="logo-curso aumenta-sobe-brilha" src="./src/images/escudo.jpg" alt="">
+
+
+    <h1 class="aparece-e-foca-8s">Memórias da turma de info3M </h1>
+    <img class="logo-curso aumenta-sobe-brilha" src="./src/images/Escudo-curso.png" alt="">
   </header>
   <section class="apresentacao">
     <h1>Apresentação da Turma do 3º Ano de Informática</h1>
-    <p>Olá a todos! É com grande entusiasmo que apresentamos a incrível turma do 3º ano de Informática!<br> Este grupo de alunos 
+    <p>Olá a todos! É com grande entusiasmo que apresentamos a incrível turma do 3º ano de Informática!<br> Este grupo
+      de alunos
       apaixonados por tecnologia tem se destacado não apenas em suas habilidades técnicas,
-       mas também em sua criatividade, colaboração e dedicação ao aprendizado.</p>
-       
+      mas também em sua criatividade, colaboração e dedicação ao aprendizado.</p>
+
   </section>
-
-<!-- início dos cards -->
+  <main>
+  <!-- início dos cards -->
+  <div class="card-group" >
+     <div class="card-group">
+      <!-- Card número 1: -->
       <div class="card">
-        <div class="card-group">
-          <!-- Card número 1: -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/20221230_113735.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Ultima Aulinha De Programação De 2022</h5>
-              <p class="card-text">
-                Ultima Aulinha de Programação Com o Professor Marcelo Damasceno.
-                <br>
-                Aulinha no Laboratorio De Redes De Computadores (Ladir)
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">30/12/2022</small>
-            </div>
-          </div>
-          <!-- fim do card número 1  -->
-
-          <!-- card numero 2 -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/primeira eletricidade (1).jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Primeira Aula Da Materia De Eletricidade Instrumental </h5>
-              <p class="card-text">
-                Primeira Foto Da Turma Com o Professor Chiberio  
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">23/06/2022</small>
-            </div>
-          </div>
-          <!-- fim do card numero 2 -->
-
-          <!-- card numero 3 -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/kleiton.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Despedida Do Nosso Querido Kelvin</h5>
-              <p class="card-text">
-               Ultimo Registro Da Turma Com o Professor Kleiton
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">02/09/2022</small>
-            </div>
-          </div>
-          <!-- fim do card numero 3 -->
+        <img class="card-img-top" src="src/images/20221230_113735.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Ultima Aulinha De Programação De 2022</h5>
+          <p class="card-text">
+            Ultima Aulinha de Programação Com o Professor Marcelo Damasceno.
+            <br>
+            Aulinha no Laboratorio De Redes Dsse Computadores (Ladir)
+          </p>
         </div>
-
-        <div class="card-group">
-          <!-- Card número 1: -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/marcelo amorim.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Registro Da Ultima Aula Com o Professor Marcelo Amorim</h5>
-              <p class="card-text">
-                Ultima Aula Do 1° Ano Da Matéria De Geografia Com Marcelo Amorim
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">08/02/2023</small>
-            </div>
-          </div>
-          <!-- fim do card número 1  -->
-
-          <!-- card numero 2 -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/aula do livro.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Aula Do Livro Com a Professora Graças</h5>
-              <p class="card-text">
-                Apresentação Dos Livros Favoritos Da Turma De Info 2M
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">10/02/2023</small>
-            </div>
-          </div>
-          <!-- fim do card numero 2 -->
-
-          <!-- card numero 3 -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/abertura intercal.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Abertura Do Intercalouros</h5>
-              <p class="card-text">
-               Abertura Com o Tema: Riquezas Brasileiras.
-               <br>
-               A Turma Ganhou Em 2° Lugar 
-              </p>
-              <button><a href="https://youtu.be/f_6cHOpiITM" target="_blank">video Da Apresentação</a> </button>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">16/12/2022</small>
-            </div>
-          </div>
-          <!-- fim do card numero 3 -->
-          <div class="card">
-            <img class="card-img-top" src="src/images/edufisica.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <h5 class="card-title">Aula De Capoeira Com o Professor Thiago  </h5>
-              <p class="card-text">
-               Aula Pratica De Capoeira De Educação física
-                <br>
-                Com O Professor Thiago (Artes Marciais)
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">25/05/2023</small>
-            </div>
-          </div>
+        <div class="card-footer">
+          <small class="text-muted">30/12/2022</small>
         </div>
       </div>
-      <div class="card-group">
-        <!-- Card número 8: -->
-        <div class="card">
-          <img class="card-img-top" src="src/images/daniel.jpg" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Aulinha De Programação </h5>
-            <p class="card-text">
-            Isaac e joyce depois de sofrer com varios bugs, tirando uma fotinha com o fav 💙 
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">13/06/2023</small>
-          </div>
-        </div>
-        <!-- fim do card número 8 -->
+      <!-- fim do card número 1  -->
 
-        <!-- card numero 9 -->
-        <div class="card">
-          <img class="card-img-top" src="src/images/intercal (1).jpg"Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Intercalouros 2022 </h5>
-            <p class="card-text">
-             momento onde a turma recebeu o trofeu e as medalhas
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">10/02/2023</small>
-          </div>
+      <!-- card numero 2 -->
+      <div class="card">
+        <img class="card-img-top" src="src/images/primeira eletricidade (1).jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Primeira Aula Da Materia De Eletricidade Instrumental </h5>
+          <p class="card-text">
+            Primeira Foto Da Turma Com o Professor Chiberio
+          </p>
         </div>
-        <!-- fim do card numero 9 -->
-
-        <!-- card numero 10 -->
-        <div class="card">
-          <img class="card-img-top" src="src/images/queimada.jpg" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">Ganhadores Da Queimada</h5>
-            <p class="card-text">
-           Ganhadores em primeiro lugar. vencendo logistica e Edificaçoes
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">03/02/2023</small>
-          </div>
-        </div>
-        <!-- fim do card numero 10 -->
-      </div>
-
-      <div class="card-group">
-        <!-- Card número 11 -->
-        <div class="card">
-          <img class="card-img-top" src="src/images/marcelo amorim.jpg" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">card 11</h5>
-            <p class="card-text">
-              Ultima Aula Do 1° Ano Da Matéria De Geografia Com Marcelo Amorim
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">08/02/2023</small>
-          </div>
-        </div>
-        <!-- fim do card número 11  -->
-
-        <!-- card numero 12 -->
-        <div class="card">
-          <img class="card-img-top" src="src/images/aula do livro.jpg" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">card 12</h5>
-            <p class="card-text">
-              Apresentação Dos Livros Favoritos Da Turma De Info 2M
-            </p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">10/02/2023</small>
-          </div>
-        </div>
-        <!-- fim do card numero 12 -->
-
-        <!-- card numero 13 -->
-        <div class="card">
-          <img class="card-img-top" src="src/images/abertura intercal.jpg" alt="Card image cap" />
-          <div class="card-body">
-            <h5 class="card-title">card 13</h5>
-            <p class="card-text">
-             Abertura Com o Tema: Riquezas Brasileiras.
-             <br>
-             A Turma Ganhou Em 2° Lugar 
-            </p>
-            <button><a href="https://youtu.be/f_6cHOpiITM">video Da Apresentação</a> </button>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">16/12/2022</small>
-            
-          </div>
+        <div class="card-footer">
+          <small class="text-muted">23/06/2022</small>
         </div>
       </div>
-    <!-- início do rodapé -->
-    <footer>
-      <div class="div-footer">
-        <h4 class="h2-footer">
-          Copyright © 2023 | Informática 2022.1 1M
-        </h4>
-        
-      </div>
-    </footer>
-    <!-- fim do rodape -->
-    
+      <!-- fim do card numero 2 -->
 
-    
-  </body>
+      <!-- card numero 3 -->
+      <div class="card">
+        <img class="card-img-top" src="src/images/kleiton.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Despedida Do Nosso Querido Kelvin</h5>
+          <p class="card-text">
+            Ultimo Registro Da Turma Com o Professor Kleiton
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">02/09/2022</small>
+        </div>
+      </div>
+      <!-- fim do card numero 3 -->
+    </div>
+
+    <div class="card-group">
+      <!-- Card número 1: -->
+      <div class="card">
+        <img class="card-img-top" src="src/images/marcelo amorim.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Registro Da Ultima Aula Com o Professor Marcelo Amorim</h5>
+          <p class="card-text">
+            Ultima Aula Do 1° Ano Da Matéria De Geografia Com Marcelo Amorim
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">08/02/2023</small>
+        </div>
+      </div>
+      <!-- fim do card número 1  -->
+
+      <!-- card numero 2 -->
+      <div class="card">
+        <img class="card-img-top" src="src/images/aula do livro.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Aula Do Livro Com a Professora Graças</h5>
+          <p class="card-text">
+            Apresentação Dos Livros Favoritos Da Turma De Info 2M
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">10/02/2023</small>
+        </div>
+      </div>
+      <!-- fim do card numero 2 -->
+
+      <!-- card numero 3 -->
+      <div class="card">
+        <img class="card-img-top" src="src/images/abertura intercal.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Abertura Do Intercalouros</h5>
+          <p class="card-text">
+            Abertura Com o Tema: Riquezas Brasileiras.
+            <br>
+            A Turma Ganhou Em 2° Lugar
+          </p>
+          <button><a href="https://youtu.be/f_6cHOpiITM" target="_blank">video Da Apresentação</a> </button>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">16/12/2022</small>
+        </div>
+      </div>
+      <!-- fim do card numero 3 -->
+      <div class="card">
+        <img class="card-img-top" src="src/images/edufisica.jpg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">Aula De Capoeira Com o Professor Thiago </h5>
+          <p class="card-text">
+            Aula Pratica De Capoeira De Educação física
+            <br>
+            Com O Professor Thiago (Artes Marciais)
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">25/05/2023</small>
+        </div>
+      </div>
+    </div>
+    <!-- Card número 8: -->
+    <div class="card">
+      <img class="card-img-top" src="src/images/daniel.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Aulinha De Programação </h5>
+        <p class="card-text">
+          Isaac e joyce depois de sofrer com varios bugs, tirando uma fotinha com o fav 💙
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">13/06/2023</small>
+      </div>
+    </div>
+    <!-- fim do card número 8 -->
+
+    <!-- card numero 9 -->
+    <div class="card">
+      <img class="card-img-top" src="src/images/intercal (1).jpg" Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Intercalouros 2022 </h5>
+        <p class="card-text">
+          momento onde a turma recebeu o trofeu e as medalhas
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">10/02/2023</small>
+      </div>
+    </div>
+    <!-- fim do card numero 9 -->
+
+    <!-- card numero 10 -->
+    <div class="card">
+      <img class="card-img-top" src="src/images/queimada.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Ganhadores Da Queimada</h5>
+        <p class="card-text">
+          Ganhadores em primeiro lugar. vencendo logistica e Edificaçoes
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">03/02/2023</small>
+      </div>
+    </div>
+    <!-- fim do card numero 10 -->
+  </div>
+
+  <div class="card-group">
+    <!-- Card número 11 -->
+    <div class="card">
+      <img class="card-img-top" src="src/images/marcelo amorim.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">card 11</h5>
+        <p class="card-text">
+          Ultima Aula Do 1° Ano Da Matéria De Geografia Com Marcelo Amorim
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">08/02/2023</small>
+      </div>
+    </div>
+    <!-- fim do card número 11  -->
+
+    <!-- card numero 12 -->
+    <div class="card">
+      <img class="card-img-top" src="src/images/aula do livro.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">card 12</h5>
+        <p class="card-text">
+          Apresentação Dos Livros Favoritos Da Turma De Info 2M
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">10/02/2023</small>
+      </div>
+    </div>
+    <!-- fim do card numero 12 -->
+
+    <!-- card numero 13 -->
+    <div class="card">
+      <img class="card-img-top" src="src/images/abertura intercal.jpg" alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">card 13</h5>
+        <p class="card-text">
+          Abertura Com o Tema: Riquezas Brasileiras.
+          <br>
+          A Turma Ganhou Em 2° Lugar
+        </p>
+        <button><a href="https://youtu.be/f_6cHOpiITM">video Da Apresentação</a> </button>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">16/12/2022</small>
+
+      </div>
+    </div>
+  </div>
+  <!-- início do rodapé -->
+  <footer>
+    <div class="div-footer">
+      <h4 class="h2-footer">
+        Copyright © 2023 | Informática 2022.1 1M
+      </h4>
+
+    </div>
+  
+  </footer>
+  </main>
+  <!-- fim do rodape -->
+
+
+  <script src="./src/scripts/modoescuro.js"></script>
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
