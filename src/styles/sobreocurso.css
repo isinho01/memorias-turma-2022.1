@@ -1,0 +1,38 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 p {
+    padding: 4rem 2rem;
+    width: 80vh;
+}
+.description-paragraph h1 {
+    font-weight: bold;
+    color: blue;
+    padding-bottom: 1.2rem;
+    padding-top: 1.4rem;
+}
+@keyframes cor {
+    0% {
+        background-color: #fafafa;
+        color: black; 
+    }
+    90% {
+        background-color: #292c35;
+        color: black; 
+    }
+    100% {
+        background-color: #292c35; 
+    }
+    
+}
+body {
+    animation-name: cor;
+    animation-duration: 6s;
+    color: black;
+    background-color: #292c35;
+   
+}
+
