@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Bebas', sans-serif;
   transition: 0.7s;
 }
 body{
@@ -152,10 +153,8 @@ main {
   height: 92vh;
 }
 h1:hover {
-  /* font-family: "Times New Roman", Times, serif; */
   transition: 0.3s;
   opacity: 0.7;
-  /* box-shadow: 0px 0px 7px rgba(34, 34, 34, 0.511); */
 }
 header{
 justify-content: space-around;
@@ -169,4 +168,9 @@ padding: 10px;
 .apresentacao{
   text-align: center;
   color: black;
+  font-family:'Bebas', sans-serif; ;
+}
+
+.textoheader {
+  margin-left: 400px;
 }
